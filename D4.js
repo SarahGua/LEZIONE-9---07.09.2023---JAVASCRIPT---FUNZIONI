@@ -92,14 +92,13 @@ console.log(upperFirst('ciao mi chiamo sarah'))
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
-const cutString = function(x1){
-    
-}
 
-console.log(cutString('ciao a tutti'))
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
+const giveMeRandom = function(parameter){
+    return parameter.split('') 
+}
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(giveMeRandom(Math.floor(Math.random()*10)))
